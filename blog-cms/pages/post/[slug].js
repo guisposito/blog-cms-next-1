@@ -8,6 +8,7 @@ const PostDetails = () => {
   return (
     <div>
         PostDetails
+        aqui vai ser o conteudo do meu post
     </div>
   )
 }
