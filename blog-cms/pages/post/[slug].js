@@ -6,9 +6,21 @@ import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm } fr
 
 const PostDetails = () => {
   return (
-    <div>
-        PostDetails
-        aqui vai ser o conteudo do meu post
+    <div className="container mx-auto px-10 mb-8">
+        <div className="gird grid-cols-1 lg:grird-cols-12 gap-12">
+          <div className="col-span1 lg:col-span-8">
+            <PostDetail/>
+            <Author/>
+            <CommentsForm/>
+            <Comments/>
+          </div>
+          <div className="col-span1 lg:col-span-8">
+            <div className="relative lg:sticky top-8">
+              <PostWidget />
+              <Categories />
+            </div>
+          </div>
+        </div>
     </div>
   )
 }
