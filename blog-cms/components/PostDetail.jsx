@@ -112,7 +112,7 @@ const PostDetail = ({ post }) => {
         })}
         
       </div>
-    </div>
+    </div> 
   );
 };
 
